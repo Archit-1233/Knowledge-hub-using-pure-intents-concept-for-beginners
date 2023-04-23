@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frontscreen"
+
+    android:background="@color/white">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="405dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Trending Domains"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/second"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="124dp"
+            android:src="@drawable/webdevelopment">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/first"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        >
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="124dp"
+            android:src="@drawable/app"
+            >
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/third"
+        android:layout_width="140dp"
+
+        android:layout_height="124dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="124dp"
+            android:src="@drawable/iosde"
+            >
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/forth"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:src="@drawable/ml">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/fifth"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="370dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="124dp"
+            android:src="@drawable/chian"
+            >
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/sixth"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="370dp"
+
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="124dp"
+            android:src="@drawable/data">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/android"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:text="Android development"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/third"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginEnd="27dp"
+        android:text="Web development"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/third"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintVertical_bias="0.517">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ios"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="IOS development"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fifth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ml"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginEnd="27dp"
+        android:text="Machine learning"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fifth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/third"
+        app:layout_constraintVertical_bias="0.523">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/block"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Block Chain development"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifth">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        android:text="Data Science"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifth">
+
+    </TextView>
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/black"
+            android:text="CONTACT US"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/data"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

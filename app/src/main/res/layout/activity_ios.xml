@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ioss">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="365dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="IOS development"
+            android:textColor="#250E0E"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="92dp"
+            android:src="@drawable/webdevelopment"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="393dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="236dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Languages used for IOS development::
+Swift,Objective C,Dart...."
+            android:textColor="#250E0E"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <ImageView
+
+            android:id="@+id/objectivec"
+            android:layout_width="134dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="496dp"
+            android:src="@drawable/objectivec"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/swift"
+            android:layout_width="144dp"
+            android:layout_height="90dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="392dp"
+
+
+            android:src="@drawable/swift"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="193dp"
+            android:layout_height="366dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pointing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Click on the images  to learn"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.042">
+
+        </TextView>
+
+        <ImageView
+
+            android:id="@+id/dart"
+            android:layout_width="134dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="630dp"
+            android:src="@drawable/dart"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        </ImageView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
